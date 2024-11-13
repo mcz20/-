@@ -1,0 +1,10 @@
+Face_Enhancement/checkpoints.zip./Face_EnhancementGlobal/checkpoints.zip./Global
+
+cd Face_Enhancement/
+wget https://github.com/microsoft/Bringing-Old-Photos-Back-to-Life/releases/download/v1.0/face_checkpoints.zip
+unzip face_checkpoints.zip
+cd ../
+cd Global/
+wget https://github.com/microsoft/Bringing-Old-Photos-Back-to-Life/releases/download/v1.0/global_checkpoints.zip
+unzip global_checkpoints.zip
+cd ../
